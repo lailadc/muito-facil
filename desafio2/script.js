@@ -1,6 +1,24 @@
+const ol = document.querySelector("ol");
+
 function chunk() {
-    let qntdd = parseInt(document.querySelector("input").value);
+    const qntdd = parseInt(document.querySelector("input").value);
     mostrar(recursiva(qntdd));
+
+    const i = ol.children.length;
+    let n = qntdd;
+    let flexao = "ões";
+    let inspecionar = `${i}. `;
+
+    switch (qntdd) {
+        case 0:
+            n = "nenhuma";
+        case 1:
+        case -1:
+            flexao = "ão";
+        default:
+            inspecionar += `${n} repetiç${flexao}`;
+    }
+    console.log(inspecionar);
 }
 
 function recursiva(n) {
@@ -17,7 +35,6 @@ function recursiva(n) {
 }
 
 function mostrar(item) {
-    const ol = document.querySelector("ol");
     const li = document.createElement("li");
     ol.appendChild(li);
     li.innerHTML = item;
