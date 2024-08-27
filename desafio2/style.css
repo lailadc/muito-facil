@@ -1,0 +1,33 @@
+body {
+    background: black;
+    color: white;
+    text-align: center;
+}
+
+label {
+    border: 1px solid white;
+    border-radius: 15px 0 0 15px;
+    margin-left: 20px;
+    padding: 5px 3px 5px 5px;
+}
+
+#qtdd {
+    width: 65px;
+    padding: 6px 0 6px 1px;
+}
+
+button {
+    width: 70px;
+    padding: 7px 6px 7px 3px;
+    border-radius: 0 15px 15px 0;
+    font-size: 14px;
+}
+
+button:hover {
+    background-color: #aaa;
+    font-weight: bold;
+}
+
+ol {
+    text-align: start;
+}
