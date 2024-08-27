@@ -1,0 +1,63 @@
+body {
+    background: black;
+    color: white;
+}
+
+h1 {
+    text-align: center;
+}
+
+#interface {
+    width: 180px;
+    border: 1px solid white;
+    border-radius: 15px;
+    margin: auto;
+    text-align: center;
+    padding: 15px 0 10px 0;
+}
+
+input {
+    width: 57px;
+    margin-bottom: 5px;
+    border-radius: 15px 0 0 15px;
+    text-align: center;
+    padding: 5px;
+}
+
+button {
+    padding: 5px;
+}
+
+button:hover {
+    background-color: #cfcfcf;
+}
+
+button:clicked {
+    background-color: gray;
+}
+
+#add {
+    border-radius: 0 15px 15px 0;
+}
+
+#media {
+    border-radius: 15px;
+}
+
+table {
+    border: 1px solid white;
+    margin: 20px auto;
+}
+
+thead th {
+    background-color: #ccc;
+    color: black;
+}
+
+th,
+td {
+    padding: 5px 20px;
+    text-align: center;
+    border: 1px solid white;
+    background-color: #222;
+}
